@@ -1,0 +1,50 @@
+/* src/pages/Checkout.css */
+.checkout {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.checkout-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.checkout form {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkout input,
+.checkout textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkout button {
+  padding: 10px 20px;
+  background: #2e8b57;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.summary {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.summary ul {
+  list-style: none;
+  padding-left: 0;
+}

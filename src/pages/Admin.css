@@ -1,0 +1,57 @@
+/* src/pages/Admin.css */
+.admin-container {
+  padding: 20px;
+}
+
+.admin-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.admin-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.admin-form button {
+  padding: 10px 15px;
+  background: #2e8b57;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-products {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-product {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.admin-product img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.admin-product button {
+  margin-top: 5px;
+  background: #c00;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
